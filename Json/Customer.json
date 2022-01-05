@@ -1,0 +1,20 @@
+{
+  "customer": [
+    {
+      "id": 20211,
+      "names": "Clearance Morumudi",
+      "contact": "+27769606305",
+      "email": "clearancemorumudi@gmail.com",
+      "citizenship": "South African",
+      "home_address": "10 Endeman street Dawn Park Boksburg 1459"
+    },
+    {
+      "name": "Kutlwano Morumudi",
+      "contact": "+277697855241",
+      "email": "kutlwanomorumudi@gmail.com",
+      "cotizenship": "South Africa",
+      "home_address": "10 Endeman street Dawn park boksburg 1459",
+      "id": 20213
+    }
+  ]
+}

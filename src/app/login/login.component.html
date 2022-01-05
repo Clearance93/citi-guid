@@ -1,0 +1,40 @@
+<main>
+    <div class="container py-4">
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+            <img src="https://i.gifer.com/U4oO.gif" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-light border rounded-3">
+            <main class="form-signin">
+                <form>
+                  <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+              
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" name="username" [(ngModel)]="reg.Username" placeholder="username">
+                    <label for="floatingInput">Username</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" name="password" [(ngModel)]="reg.password" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+              
+                  <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                  </div>
+                  <button class="btn btn-success w-100" type="submit" (click)="login()">Login</button>
+                  <a routerLink="/registration" class="btn btn-outline-success w-100">Registration</a>
+                </form>
+              </main>
+              
+          </div>
+        </div>
+      </div>
+  
+      <footer class="pt-3 mt-4 text-muted border-top">
+        &copy; 2021
+      </footer>
+    </div>
+  </main>
